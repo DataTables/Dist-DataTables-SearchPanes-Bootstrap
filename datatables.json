@@ -1,0 +1,13 @@
+{
+    "css": [
+        "css/searchPanes.bootstrap.css",
+        "css/searchPanes.bootstrap.min.css"
+    ],
+    "js": [
+        "js/searchPanes.bootstrap.js",
+        "js/searchPanes.bootstrap.min.js"
+    ],
+    "src-repo": "http://github.com/DataTables/SearchPanes",
+    "last-sync": "",
+    "last-tag": ""
+}
