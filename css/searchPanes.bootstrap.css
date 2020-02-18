@@ -43,6 +43,12 @@ div.dtsp-topRow button.dtsp-searchIcon {
   background-size: 12px;
 }
 
+div.dt-button-collection {
+  top: 40px !important;
+  left: 0px !important;
+  z-index: 2002;
+}
+
 div.dataTables_scrollBody {
   background: white !important;
 }
@@ -137,6 +143,7 @@ div.dtsp-panesContainer {
   border-radius: 10px;
   margin: 5px 0;
   clear: both;
+  z-index: 2002;
 }
 div.dtsp-panesContainer div.dtsp-title {
   float: left;
