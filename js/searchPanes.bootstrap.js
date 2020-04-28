@@ -26,7 +26,7 @@
     }
 }(function ($, window, document) {
     'use strict';
-    let DataTable = $.fn.dataTable;
+    var DataTable = $.fn.dataTable;
     $.extend(true, DataTable.SearchPane.classes, {
         buttonGroup: 'btn-group',
         disabledButton: 'disabled',
@@ -34,7 +34,7 @@
         narrow: 'col narrow',
         narrowSub: 'row',
         pane: {
-            container: 'table',
+            container: 'table'
         },
         paneButton: 'btn btn-light',
         pill: 'badge badge-pill badge-light pill',
@@ -45,14 +45,14 @@
         subRow1: 'dtsp-subRow1 text-right',
         subRow2: 'dtsp-subRow2 text-right',
         table: 'table table-condensed',
-        topRow: 'dtsp-topRow',
+        topRow: 'dtsp-topRow'
     });
     $.extend(true, DataTable.SearchPanes.classes, {
         clearAll: 'dtsp-clearAll col-1 btn btn-light',
         container: 'dtsp-searchPanes row',
         panes: 'dtsp-panesContainer',
         title: 'dtsp-title col-10',
-        titleRow: 'row',
+        titleRow: 'row'
     });
     return DataTable.searchPanes;
 }));
