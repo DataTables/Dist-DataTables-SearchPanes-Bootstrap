@@ -135,7 +135,13 @@ div.dtsp-panesContainer {
 }
 
 div.dtsp-searchPanes {
+  margin-left: 0px;
+  margin-right: 0px;
   padding-top: 10px;
+}
+div.dtsp-searchPanes div.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 div.dtsp-searchPanes button.clearAll {
   max-width: 50px;
@@ -149,12 +155,6 @@ div.dtsp-searchPanes div.btn-group {
 div.dtsp-searchPanes div.btn-group button.btn {
   margin: 0;
   height: 40px;
-}
-
-div.dtsp-searchPanes,
-div.row {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 div.dtsp-searchPane {
