@@ -30,7 +30,6 @@
     $.extend(true, DataTable.SearchPane.classes, {
         buttonGroup: 'btn-group',
         disabledButton: 'disabled',
-        dull: 'disabled',
         narrow: 'col narrow',
         narrowSub: 'row',
         pane: {
@@ -46,7 +45,8 @@
         table: 'table table-condensed'
     });
     $.extend(true, DataTable.SearchPanes.classes, {
-        clearAll: 'dtsp-clearAll btn btn-light'
+        clearAll: 'dtsp-clearAll btn btn-light',
+        disabledButton: 'disabled'
     });
     return DataTable.searchPanes;
 }));
