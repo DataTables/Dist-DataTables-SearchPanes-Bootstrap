@@ -12,9 +12,11 @@
                 root = window;
             }
             if (!$ || !$.fn.dataTable) {
+                // eslint-disable-next-line @typescript-eslint/no-var-requires
                 $ = require('datatables.net-bs')(root, $).$;
             }
             if (!$.fn.dataTable.SearchPanes) {
+                // eslint-disable-next-line @typescript-eslint/no-var-requires
                 require('datatables.net-searchpanes')(root, $);
             }
             return factory($, root, root.document);
@@ -26,8 +28,8 @@
     }
 }(function ($, window, document) {
     'use strict';
-    var DataTable = $.fn.dataTable;
-    $.extend(true, DataTable.SearchPane.classes, {
+    var dataTable = $.fn.dataTable;
+    $.extend(true, dataTable.SearchPane.classes, {
         buttonGroup: 'btn-group',
         disabledButton: 'disabled',
         narrow: 'col narrow',
@@ -44,9 +46,9 @@
         subRow2: 'dtsp-subRow2 text-right',
         table: 'table table-condensed'
     });
-    $.extend(true, DataTable.SearchPanes.classes, {
+    $.extend(true, dataTable.SearchPanes.classes, {
         clearAll: 'dtsp-clearAll btn btn-light',
         disabledButton: 'disabled'
     });
-    return DataTable.searchPanes;
+    return dataTable.searchPanes;
 }));
