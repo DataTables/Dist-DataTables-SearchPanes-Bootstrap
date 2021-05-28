@@ -19,7 +19,7 @@ npm install datatables.net-searchpanes-bs
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-searchpanes-bs}' )( window, $ );
+var dt = require( 'datatables.net-searchpanes-bs' )( window, $ );
 ```
 
 ### bower
