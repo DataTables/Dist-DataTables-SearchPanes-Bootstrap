@@ -4,15 +4,15 @@
     "main": "js/searchPanes.bootstrap.js",
     "style": "css/searchPanes.bootstrap.css",
     "types": "./types/searchPanes.bootstrap.d.ts",
-    "version": "1.3.0",
+    "version": "1.2.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "SearchPanes",
- "search",
- "filtering",
+        "search",
+        "filtering",
         "Bootstrap",
         "Datatables",
         "jQuery",
@@ -21,9 +21,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": ">=1.3.0",
-        "datatables.net-bs": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-bs": "^1.10.15",
+        "datatables.net-searchpanes": "1.2.2"
     },
     "moduleType": [
         "globals",
