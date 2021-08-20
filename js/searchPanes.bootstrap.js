@@ -48,7 +48,9 @@
     });
     $.extend(true, dataTable.SearchPanes.classes, {
         clearAll: 'dtsp-clearAll btn btn-light',
-        disabledButton: 'disabled'
+        collapseAll: 'dtsp-collapseAll btn btn-light',
+        disabledButton: 'disabled',
+        showAll: 'dtsp-showAll btn btn-light'
     });
     return dataTable.searchPanes;
 }));
