@@ -2,12 +2,14 @@
     "name": "datatables.net-searchpanes-bs",
     "description": "SearchPanes for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
     "main": "js/searchPanes.bootstrap.js",
+    "module": "js/searchPanes.bootstrap.mjs",
     "style": "css/searchPanes.bootstrap.css",
     "types": "./types/searchPanes.bootstrap.d.ts",
     "version": "2.0.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
