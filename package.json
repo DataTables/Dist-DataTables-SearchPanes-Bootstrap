@@ -5,7 +5,7 @@
     "module": "js/searchPanes.bootstrap.mjs",
     "style": "css/searchPanes.bootstrap.css",
     "types": "./types/searchPanes.bootstrap.d.ts",
-    "version": "2.1.2",
+    "version": "2.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,8 +14,8 @@
     ],
     "keywords": [
         "SearchPanes",
- "search",
- "filtering",
+        "search",
+        "filtering",
         "Bootstrap",
         "Datatables",
         "jQuery",
