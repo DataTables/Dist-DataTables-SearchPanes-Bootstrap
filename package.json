@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchpanes-bs",
     "description": "SearchPanes for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
-    "main": "js/searchPanes.bootstrap.js",
-    "module": "js/searchPanes.bootstrap.mjs",
-    "style": "css/searchPanes.bootstrap.css",
+    "main": "./js/searchPanes.bootstrap.js",
+    "module": "./js/searchPanes.bootstrap.mjs",
+    "style": "./css/searchPanes.bootstrap.css",
     "types": "./types/searchPanes.bootstrap.d.ts",
     "version": "2.3.5",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchPanes",
@@ -48,5 +47,24 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchPanes.bootstrap.d.ts",
+            "import": "./js/searchPanes.bootstrap.mjs",
+            "default": "./js/searchPanes.bootstrap.mjs",
+            "require": "./js/searchPanes.bootstrap.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchPanes.bootstrap.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
